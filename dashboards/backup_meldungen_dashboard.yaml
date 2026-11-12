@@ -1,0 +1,25 @@
+# Dashboard für Home Assistant: Einstellungen → Dashboards → Dashboard hinzufügen,
+# dann oben rechts ⋮ → Raw-Konfigurationseditor und diesen Inhalt einfügen.
+title: Backup-Meldungen
+views:
+- title: Backup-Meldungen
+  path: backup_meldungen
+  icon: mdi:view-dashboard
+  cards:
+  - type: entities
+    title: Status
+    entities:
+    - sensor.backup_alter_tage
+  - type: entities
+    title: Einstellungen
+    entities:
+    - switch.backup_push_aktiv
+    - switch.backup_bei_erfolg
+    - number.backup_max_alter_tage
+    - switch.backup_ziel_person1
+    - switch.backup_ziel_person2
+  - type: entities
+    title: Werkzeuge
+    entities:
+    - button.backup_test
+    - button.backup_standardwerte

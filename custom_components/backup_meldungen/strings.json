@@ -1,0 +1,34 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Backup-Meldungen",
+        "description": "Meldet fehlgeschlagene oder überfällige Home-Assistant-Backups per Push.",
+        "data": {
+          "notify_person1": "Notify-Dienst Person 1",
+          "notify_person2": "Notify-Dienst Person 2",
+          "event_entity": "Backup-Ereignis",
+          "last_success": "Letztes erfolgreiches Backup",
+          "size_entity": "Größe des letzten Backups"
+        }
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "Es ist nur eine Instanz erlaubt."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Backup-Meldungen",
+        "data": {
+          "notify_person1": "Notify-Dienst Person 1",
+          "notify_person2": "Notify-Dienst Person 2",
+          "event_entity": "Backup-Ereignis",
+          "last_success": "Letztes erfolgreiches Backup",
+          "size_entity": "Größe des letzten Backups"
+        }
+      }
+    }
+  }
+}
