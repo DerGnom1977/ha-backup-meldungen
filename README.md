@@ -1,6 +1,10 @@
 # Backup-Meldungen
 
+![Backup-Meldungen](https://raw.githubusercontent.com/DerGnom1977/ha-backup-meldungen/main/images/preview.png)
+
 Meldet fehlgeschlagene oder überfällige Home-Assistant-Backups per Push.
+
+![Dashboard](https://raw.githubusercontent.com/DerGnom1977/ha-backup-meldungen/main/images/dashboard.jpg)
 
 Python-Integration für Home Assistant (HACS). Sie ersetzt das bisherige YAML-Paket
 `backup/packages/backup_benachrichtigung.yaml`: Einstellungen sind jetzt eigene Entitäten (Schalter, Zahlen, Auswahlfelder,
